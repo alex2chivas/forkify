@@ -1,0 +1,21 @@
+Git started. After installing node that comes with npm.
+1. Press Npm init in Git
+2. npm webpack by using npm install webpack --save-dev (saves as only dev dependency)
+3. npm react by using  npm install react --save (saves as regular dependency)
+4. npm live sever by using npm install live-server --global 
+(saves it to global scope and not just this specific project)
+5. Can call live-server from anywhere
+6. npm webpack by using npm install --save-dev webpack@4 webpack-cli@2 webpack-dev-server@3 
+(@ grab specific version, not recomended)
+7. npm babel by using npm install --save-dev babel-core@6 babel-preset-env@1 babel-loader@7 (@ grab specific version, not recomended)
+8  npm babel by using npm install --save babel-polyfill@6 (@ grab specific version, not recomended)
+9. npm webpack server by using npm i webpack-dev-server --save-dev
+10. npm html plugin by using npm i html-webpack-plugin --save-dev (injects our script into html auto)
+
+// Update on babel and Webpack 
+for lastested version on babel install. 
+7. npm babel by using npm install --save-dev @babel/core @babel/preset-env babel-loader 
+npm install --save core-js@3 regenerator-runtime
+
+// Webpack Update
+6. Manually created the weback but install using npm i webpack-cli --save-dev

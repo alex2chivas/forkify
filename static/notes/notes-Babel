@@ -1,0 +1,8 @@
+Setup
+
+1. npm install babel --save-dev
+2. npm install babel-core babel-preset-env babel-loader --save-dev
+
+// Install polyfill to convert promises since it did not excist in ES5
+
+1. npm install babel-polyfill --save (this is a real dependency since it actually injects real code)
